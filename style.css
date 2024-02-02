@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  margin: 0 5px;
+  background-image: url(images/5.jfif);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h4 {
+  
+  color: rgb(5, 4, 4);
+  text-align: center;
+  justify-content: space-between;
+  /* text-decoration:double; */
+  
+
+  /* margin-top: 10px;
+  margin-bottom: 20px; */
+
+}
+
+.app {
+  /* background-color: rgb(196, 114, 209); */
+  background-image: url(images/6.jfif);
+  background-size: cover; /* Ensure the background covers the entire body */
+  background-repeat: no-repeat; /* Prevent background from repeating */
+  background-position: center;
+  width: 600px;
+  height: 600px;
+  border: 5px solid #fefdfd;
+  border-radius: 10px;
+  padding: 15px;
+  overflow-y: scroll;
+  justify-content: space-between;
+  align-items: center;
+  color: #040000;
+  
+}
+
+.app::-webkit-scrollbar {
+  width: 0 !important;
+  
+
+} 
+
+#addNew {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(61, 34, 4); */
+  border: 3px solid rgb(61, 34, 4);
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* + Button */
+.fa-plus {
+  background-color: #f3e8e8;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#tasks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+#tasks div {
+  border: 3px solid rgb(61, 34, 4);
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px;
+  display: grid;
+  gap: 4px;
+}
+/* //upDATE AND DEL ICONS */
+#tasks div .options {
+  justify-self: center;
+  display: flex;
+  gap: 20px;
+
+}
+
+#tasks div .options i {
+  cursor: pointer;
+}
+.modal-content{
+  background-image: url(images/7.jfif);
+  background-size: cover; /* Ensure the background covers the entire body */
+  background-repeat: no-repeat; /* Prevent background from repeating */
+  background-position: center;
+  border: 3px solid rgb(245, 242, 242);
+  color: #0c0c0c;
+
+}
+.modal-footer button{
+  background-color: #f3e8e8;
+  border: 3px solid rgb(61, 34, 4);
+  color: #040000;}
+
+#msg {
+  color: red;
+}
